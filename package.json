@@ -5,7 +5,10 @@
     "dev": "vite",
     "build": "rm -rf dist && vite build",
     "serve": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "css-build": "node-sass --omit-source-map-url ./sass/styles.scss ./src/index.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "devDependencies": {
     "bulma": "^0.9.2",
@@ -15,6 +18,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "gh-pages": "^3.1.0",
+    "node-sass": "^5.0.0",
     "stylelint": "^13.12.0",
     "stylelint-config-standard": "^21.0.0",
     "vite": "^2.1.0"
