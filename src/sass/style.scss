@@ -1,5 +1,6 @@
 @charset "utf-8";
-@import "bulma/bulma.sass";
+@import "./node_modules/bulma/bulma.sass";
+
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
@@ -15,57 +16,67 @@ $beige-lighter: #EFF0EB;
 //   border: 2px solid black;
 // }
 
-.section1 {
+.typed-cursor{
+  font-size: 2rem;
+}
+
+.mainScreen {
   background-image: url(https://deih43ym53wif.cloudfront.net/la-geria-wine-grow-lanzarote-canary-islands-shutterstock_661595281_34f3af3ad8.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.section2 {
+.sense1 {
   background-image: url(https://entremontanas.com/wp-content/uploads/tour_img-1380315-99.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.section3 {
+.sense2 {
   background-image: url(https://s0.blt.ro/guidetocanaryislands.com/img/o/media/grancanaria/events/carnival/las-palmas-de-gran-canaria/las-palmas-de-gran-canaria-carnival-spain-1200-675.1594383467.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.section4 {
+.sense3 {
   background-image: url(https://blogimages.musement.com/2019/09/Comida-Canaria-AdobeStock_272575441.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.section5 {
+.sense4 {
   background-image: url(https://f.intersailclub.com//logos/4/f/e/4fe7e0544920140110d9c9e056a037115b8ed8876b2bd-ab25e-fit-1920-1080.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.sense5 {
+  background-image: url(https://f.intersailclub.com//logos/4/f/e/4fe7e0544920140110d9c9e056a037115b8ed8876b2bd-ab25e-fit-1920-1080.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+// $family-sans-serif: "Nunito", sans-serif;
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+// $primary: $purple;
+// $link: $pink;
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
 
 
-// Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
-$control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: none;
+// // Update some of Bulma's component variables
+// $body-background-color: $beige-lighter;
+// $control-border-width: 2px;
+// $input-border-color: transparent;
+// $input-shadow: none;
 
 // Import only what you need from Bulma
 // @import "../node_modules/bulma/sass/utilities/_all.sass";

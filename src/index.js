@@ -33,8 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 let type = {
-  strings: ["", "Wonderful", "Inspiring", "Majestic", "Outstanding", "Unique"],
+  strings: ["fnkfda", "Wonderful", "Inspiring", "Majestic", "Outstanding", "Unique"],
   typeSpeed: 40,
+  backSpeed: 40,
 };
 
 let typed = new Typed('.adjectives', type);
