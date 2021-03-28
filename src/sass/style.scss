@@ -1,12 +1,13 @@
 @charset "utf-8";
-@import "bulma/bulma.sass";
+// @import "../../node_modules/bulma/bulma.sass";
+
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 // Set your brand colors
-$primary: red;
+$primary: #2c3258;
 $purple: #8A4D76;
-$pink: #FA7C91;
+$info: #d10995;
 $brown: #757763;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
@@ -14,52 +15,89 @@ $beige-lighter: #EFF0EB;
 // .section {
 //   border: 2px solid black;
 // }
+* {
+  font-family: 'Roboto Mono', monospace;
+}
 
-.section1 {
+.button {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.typed-cursor{
+  font-size: 2rem;
+}
+
+.mainScreen {
   background-image: url(https://deih43ym53wif.cloudfront.net/la-geria-wine-grow-lanzarote-canary-islands-shutterstock_661595281_34f3af3ad8.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.section2 {
-  background-image: url(https://entremontanas.com/wp-content/uploads/tour_img-1380315-99.jpg);
+.sense1 {
+  background-image: url(https://www.holaislascanarias.com/sites/default/files/alice/galeria_alice_15_zoom.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.section3 {
+
+.sense2 {
   background-image: url(https://s0.blt.ro/guidetocanaryislands.com/img/o/media/grancanaria/events/carnival/las-palmas-de-gran-canaria/las-palmas-de-gran-canaria-carnival-spain-1200-675.1594383467.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.section4 {
+.sense3 {
+  background-image: url(https://blogimages.musement.com/2019/09/Comida-Canaria-AdobeStock_272575441.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sense4 {
   background-image: url(https://f.intersailclub.com//logos/4/f/e/4fe7e0544920140110d9c9e056a037115b8ed8876b2bd-ab25e-fit-1920-1080.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+.sense5 {
+  background-image: url(https://entremontanas.com/wp-content/uploads/tour_img-1380315-99.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
+.mybox{
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 10px;
+}
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+// $family-sans-serif: "Nunito", sans-serif;
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+// $primary: $purple;
+// $link: $pink;
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
 
 
-// Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
-$control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: none;
+// // Update some of Bulma's component variables
+// $body-background-color: $beige-lighter;
+// $control-border-width: 2px;
+// $input-border-color: transparent;
+// $input-shadow: none;
 
 // Import only what you need from Bulma
 // @import "../node_modules/bulma/sass/utilities/_all.sass";
@@ -71,6 +109,10 @@ $input-shadow: none;
 // @import "../node_modules/bulma/sass/components/navbar.sass";
 // @import "../node_modules/bulma/sass/layout/hero.sass";
 // @import "../node_modules/bulma/sass/layout/section.sass";
+// @import "../../node_modules/bulma/sass/grid/columns.sass";
+
+
+@import "../../node_modules/bulma/bulma.sass";
 
 // para ver documentacion de como customize things
 // https://versions.bulma.io/0.7.0/documentation/overview/customize/

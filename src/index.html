@@ -5,13 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
-  <link rel="stylesheet" href="./sass/style.scss">
-  <link rel="stylesheet" href="./index.css">
-  <script type="module" src="./index.js"></script>
+  <link rel="stylesheet" href="./sass/style.scss">  
+  <!-- <link rel="stylesheet" href="./index.css"> -->
+  <script type="module"  src="./index.js"></script>
+ 
 </head>
 <body>
-  <!-- Hero : First sense -->
-  <section class="hero is-danger is-large section1">
+  <!-- Hero : Main screen -->
+  <section class="hero is-primary is-large mainScreen">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
       <nav class="navbar">
@@ -31,18 +32,9 @@
               <a class="navbar-item is-active">
                 Home
               </a>
-              <a class="navbar-item">
-                Examples
-              </a>
-              <a class="navbar-item">
-                Documentation
-              </a>
               <span class="navbar-item">
                 <a class="button is-primary is-inverted">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span>Download</span>
+                  <span>IR AL SITIO</span>
                 </a>
               </span>
             </div>
@@ -53,155 +45,107 @@
   
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
-      <div class="content is-flex">
-        <div class="card">
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-4 has-text-black">John Smith</p>
-                <p class="subtitle is-6 has-text-black ">@johnsmith</p>
-              </div>
-            </div>
-        
-            <div class="content">
-              Nice place to be <a>@bulmaio</a>.
-              <a href="#">#css</a> <a href="#">#responsive</a>
-              <br>
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-            </div>
-          </div>
+      <div class="container has-text-centered">
+        <div class="column is-4 is-offset-1">
+          
+          <p class="subtitle">
+            Porque nunca has estado en una isla tan ...
+          </p>
+          <div style= "height: 20px;">
+          <span class="title adjectives"></span> 
+        </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- second sense -->
-  <section class="section is-large section2">
-    <div class="content is-flex">
-      <div class="card">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">John Smith</p>
-              <p class="subtitle is-6">@johnsmith</p>
-            </div>
-          </div>
-      
-          <div class="content">
-            Nice place to be <a>@bulmaio</a>.
-            <a href="#">#css</a> <a href="#">#responsive</a>
-            <br>
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-          </div>
+
+    <!-- first sense -->
+    <section class="section is-large sense1"> 
+      <div class="columns">
+        <div class="column is-4 is-offset-8">
+          <div class="content is-flex">
+            <div class="mybox" data-aos="fade-up" data-aos-duration="1500">
+                <h1 class="title has-text-centered" style="color: white;">Te acercamos la naturaleza... </h1>
+                <div class="buttons" style="justify-content: center;">
+                  <button class="button is-success is-rounded is-large">DESCUBRE</button>
+                </div> 
+            </div> 
+          </div>     
+    </div>
+    </div>
+</section>
+
+  <!-- second sense  -->
+  <section class="section is-large sense2">
+      <div class="content is-flex">
+        <div class="mybox" data-aos="fade-right" data-aos-duration="1500">
+            <h1 class="title has-text-centered" style="color: black;">Calles llenas de música y color... </h1>
+            <div class="buttons" style="justify-content: center;">
+              <button class="button is-info is-rounded is-large" style="font-family: 'Roboto Mono', monospace;">DISFRÁZATE</button>
+            </div> 
+        </div> 
+      </div>
+  </section>
+
+  <!-- third sense -->
+  <section class="section is-large sense3">
+    <div class="columns">
+      <div class="column is-4 is-offset-8">
+        <div class="content is-flex">
+          <div class="mybox" data-aos="zoom-in" data-aos-duration="1500">
+              <h1 class="title has-text-centered" style="color: white;" >Una gastronomía única... </h1>
+              <div class="buttons" style="justify-content: center;">
+                <button class="button is-warning is-rounded is-large" style="font-family: 'Roboto Mono', monospace;">DATE EL GUSTO</button>
+              </div> 
+          </div> 
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- third sense  -->
-  <section class="section is-large section3">
-      <div class="content is-flex">
-        <div class="card">
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-4">John Smith</p>
-                <p class="subtitle is-6">@johnsmith</p>
-              </div>
-            </div>
-        
-            <div class="content">
-              Nice place to be <a>@bulmaio</a>.
-              <a href="#">#css</a> <a href="#">#responsive</a>
-              <br>
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-            </div>
-          </div>
-        </div>
-      </div>
   </section>
 
   <!-- forth sense -->
-  <section class="section is-large section4">
-        <div class="content is-flex">
-          <div class="card">
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-48x48">
-                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p class="title is-4">John Smith</p>
-                  <p class="subtitle is-6">@johnsmith</p>
-                </div>
-              </div>
-          
-              <div class="content">
-                Nice place to be <a>@bulmaio</a>.
-                <a href="#">#css</a> <a href="#">#responsive</a>
-                <br>
-                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-              </div>
-            </div>
-          </div>
-        </div>
-  </section>
-
-  <!-- fifth sense -->
-  <section class="section is-medium">
-          <div class="content is-flex">
-            <div class="card">
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="media-content">
-                    <p class="title is-4">John Smith</p>
-                    <p class="subtitle is-6">@johnsmith</p>
-                  </div>
-                </div>
-            
-                <div class="content">
-                  Nice place to be <a>@bulmaio</a>.
-                  <a href="#">#css</a> <a href="#">#responsive</a>
-                  <br>
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                </div>
-              </div>
-            </div>
-          </div>
-  </section>
-
-  <!-- footer -->
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        <strong>Bulma</strong> by <a href="https://jgthms.com">Choso Team</a>. The source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> BY Guanche 2.0</a>.
-      </p>
+  <section class="section is-large sense4">
+    <div class="content is-flex">
+      <div class="content is-flex">
+        <div class="mybox" data-aos="fade-up-right" data-aos-duration="1500">
+            <h1 class="title has-text-centered" style="color: white;">Explora lo inexplorable... </h1>
+            <div class="buttons" style="justify-content: center;">
+              <button class="button is-link is-rounded is-large" style="font-family: 'Roboto Mono', monospace;">SUMÉRGETE</button>
+            </div> 
+        </div> 
+      </div>
     </div>
-  </footer>
+  </section>
+  
+ <!-- fifth sense -->
+ <section class="section is-large sense5">
+  <div class="columns">
+    <div class="column is-4 is-offset-8">
+      <div class="content is-flex">
+        <div class="mybox" data-aos="fade-up-left" data-aos-duration="1500">
+            <h1 class="title has-text-centered" style="color: white;">CANARIAS, a tus pies... </h1>
+            <div class="buttons" style="justify-content: center;">
+              <button class="button is-danger is-rounded is-large" style="font-family: 'Roboto Mono', monospace;">AVENTÚRATE</button>
+            </div> 
+        </div> 
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      With <strong>Bulma</strong> by <a href="https://jgthms.com">Your Second Choso</a>.
+    </p>
+  </div>
+</footer>
 
 </body>
 </html>
+
+
+
+
