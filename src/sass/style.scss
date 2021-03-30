@@ -1,20 +1,21 @@
 @charset "utf-8";
-// @import "../../node_modules/bulma/bulma.sass";
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 // Set your brand colors
 $primary: #2c3258;
-$purple: #8A4D76;
 $info: #d10995;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
 
-// .section {
-//   border: 2px solid black;
-// }
+// Update Bulma's global variables
+// $family-sans-serif: "Nunito", sans-serif;
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+// $primary: $purple;
+// $link: $pink;
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
+
 * {
   font-family: 'Roboto Mono', monospace;
 }
@@ -83,14 +84,6 @@ $beige-lighter: #EFF0EB;
   padding: 10px;
 }
 
-// Update Bulma's global variables
-// $family-sans-serif: "Nunito", sans-serif;
-// $grey-dark: $brown;
-// $grey-light: $beige-light;
-// $primary: $purple;
-// $link: $pink;
-// $widescreen-enabled: false;
-// $fullhd-enabled: false;
 
 
 // // Update some of Bulma's component variables
@@ -111,8 +104,4 @@ $beige-lighter: #EFF0EB;
 // @import "../node_modules/bulma/sass/layout/section.sass";
 // @import "../../node_modules/bulma/sass/grid/columns.sass";
 
-
 @import "../../node_modules/bulma/bulma.sass";
-
-// para ver documentacion de como customize things
-// https://versions.bulma.io/0.7.0/documentation/overview/customize/
