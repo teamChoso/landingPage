@@ -86,13 +86,21 @@ $info: #d10995;
   box-sizing: border-box;
   background-color: transparent;
   padding: 10px;
+  text-shadow: 2px 2px 3px black;
 }
 
 .mycard {
-  background-color: red;
+  border: none;
+  border-radius: 50%;
 }
 
+.title {
+  text-shadow: 2px 2px 3px black;
+}
 
+.subtitle {
+  text-shadow: 1px 1px 2px black;
+}
 
 // // Update some of Bulma's component variables
 // $body-background-color: $beige-lighter;

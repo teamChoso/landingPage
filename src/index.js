@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 let type = {
-  strings: ["Espléndida", "Maravillosa", "Única", "CANARIAS"],
+  strings: ["Espléndidas", "Maravillosas", "Únicas", "CANARIAS"],
   typeSpeed: 40,
   backSpeed: 40,
 };
