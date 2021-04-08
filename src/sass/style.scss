@@ -1,8 +1,7 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 // Set your brand colors
 $primary: #2c3258;
 $info: #d10995;
@@ -17,15 +16,11 @@ $info: #d10995;
 // $fullhd-enabled: false;
 
 * {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
 .button {
-  font-family: 'Roboto Mono', monospace;
-}
-
-.button:hover {
-
+  font-family: 'Roboto', sans-serif;
 }
 
 .typed-cursor{
@@ -40,6 +35,9 @@ $info: #d10995;
   background-attachment: fixed;
 }
 
+
+// STYLE FOR FIRST SECTION
+
 .sense1 {
   background-image: url(https://www.lugaresdeaventura.com/sites/default/files/inline-images/caldera-pinos-de-galdar-artenara-%C2%A9-patronato-de-turismo-de-gran-canaria.jpg); 
   background-size: cover;
@@ -48,6 +46,15 @@ $info: #d10995;
   background-attachment: fixed;
 }
 
+.messageboxsense1{
+  box-sizing: border-box;
+  padding: 10px;
+  background: rgba(83, 214, 133, 0.750);
+  border-radius: 10px;
+}
+
+
+// STYLE FOR SECOND SECTION
 
 .sense2 {
   background-image: url(https://s0.blt.ro/guidetocanaryislands.com/img/o/media/grancanaria/events/carnival/las-palmas-de-gran-canaria/las-palmas-de-gran-canaria-carnival-spain-1200-675.1594383467.jpg); 
@@ -57,6 +64,17 @@ $info: #d10995;
   background-attachment: fixed;
 }
 
+.messageboxsense2{
+  box-sizing: border-box;
+  padding: 10px;
+  background: rgba(228, 68, 193, 0.750);
+
+  border-radius: 10px;
+}
+
+
+// STYLE FOR THIRD SECTION
+
 .sense3 {
   background-image: url(https://blogimages.musement.com/2019/09/Comida-Canaria-AdobeStock_272575441.jpg);
   background-size: cover;
@@ -64,6 +82,16 @@ $info: #d10995;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.messageboxsense3{
+  box-sizing: border-box;
+  padding: 10px;
+  background: rgba(247, 229, 69, 0.750);
+  border-radius: 10px;
+}
+
+
+// STYLE FOR FORTH SECTION
 
 .sense4 {
   background-image: url(https://f.intersailclub.com//logos/4/f/e/4fe7e0544920140110d9c9e056a037115b8ed8876b2bd-ab25e-fit-1920-1080.jpg); 
@@ -73,6 +101,16 @@ $info: #d10995;
   background-attachment: fixed;
 }
 
+.messageboxsense4{
+  box-sizing: border-box;
+  padding: 10px;
+  background: rgba(60, 122, 255, 0.750);
+  border-radius: 10px;
+}
+
+
+// STYLE FOR FIFTH SECTION
+
 .sense5 {
   background-image: url(https://entremontanas.com/wp-content/uploads/tour_img-1380315-99.jpg);
   background-size: cover;
@@ -81,17 +119,17 @@ $info: #d10995;
   background-attachment: fixed;
 }
 
+
+
+// PERSONAL STYLES 
+
+
 .mybox{
-  font-size: 17px;
+  font-size: 20px;
   box-sizing: border-box;
   background-color: transparent;
   padding: 10px;
-  text-shadow: 2px 2px 3px black;
-}
-
-.mycard {
-  border: none;
-  border-radius: 50%;
+  text-shadow: 10px 10px 12px black;
 }
 
 .title {
@@ -100,24 +138,16 @@ $info: #d10995;
 
 .subtitle {
   text-shadow: 1px 1px 2px black;
+  font-size: 17px;
+  font-weight: bold;
 }
 
-// // Update some of Bulma's component variables
-// $body-background-color: $beige-lighter;
-// $control-border-width: 2px;
-// $input-border-color: transparent;
-// $input-shadow: none;
-
-// Import only what you need from Bulma
-// @import "../node_modules/bulma/sass/utilities/_all.sass";
-// @import "../node_modules/bulma/sass/base/_all.sass";
-// @import "../node_modules/bulma/sass/elements/button.sass";
-// @import "../node_modules/bulma/sass/elements/container.sass";
-// @import "../node_modules/bulma/sass/elements/title.sass";
-// @import "../node_modules/bulma/sass/form/_all.sass";
-// @import "../node_modules/bulma/sass/components/navbar.sass";
-// @import "../node_modules/bulma/sass/layout/hero.sass";
-// @import "../node_modules/bulma/sass/layout/section.sass";
-// @import "../../node_modules/bulma/sass/grid/columns.sass";
+.messagetext{
+  font-size: 20px;
+  margin: 10px;
+  text-shadow: 1px 1px 2px white;
+  color: black;
+  // font-weight: bold;
+}
 
 @import "../../node_modules/bulma/bulma.sass";

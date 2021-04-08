@@ -36,6 +36,7 @@ let type = {
   strings: ["Espléndidas", "Maravillosas", "Únicas", "CANARIAS"],
   typeSpeed: 40,
   backSpeed: 40,
+  loopCout: Infinity,
 };
 
 let typed = new Typed('.adjectives', type);
