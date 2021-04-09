@@ -27,8 +27,15 @@ $info: #d10995;
 }
 
 .herotext{
-  font-size: 50px;
+  font-size: 40px;
   text-shadow: 2px 2px 2px black;
+}
+
+.herobox{
+    box-sizing: border-box;
+    padding: 50px;
+    background: rgba(83, 214, 133, 0.750);
+    border-radius: 10px;
 }
 
 .mytext{
