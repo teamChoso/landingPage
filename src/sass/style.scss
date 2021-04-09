@@ -2,29 +2,41 @@
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 // Set your brand colors
 $primary: #2c3258;
 $info: #d10995;
 
-// Update Bulma's global variables
-// $family-sans-serif: "Nunito", sans-serif;
-// $grey-dark: $brown;
-// $grey-light: $beige-light;
-// $primary: $purple;
-// $link: $pink;
-// $widescreen-enabled: false;
-// $fullhd-enabled: false;
-
-* {
-  font-family: 'Roboto', sans-serif;
-}
-
-.button {
-  font-family: 'Roboto', sans-serif;
-}
+// PERSONAL STYLES 
 
 .typed-cursor{
   font-size: 2rem;
+}
+
+.mybox{
+  font-size: 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 10px;
+  text-shadow: 10px 10px 12px black;
+}
+
+.title {
+  text-shadow: 2px 2px 3px black;
+  font-size: 50px;
+}
+
+.herotext{
+  font-size: 50px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.mytext{
+  font-size: 22px;
+  margin: 10px;
+  text-shadow: 2px 2px 2px black;
+  color: white;
 }
 
 .mainScreen {
@@ -48,7 +60,7 @@ $info: #d10995;
 
 .messageboxsense1{
   box-sizing: border-box;
-  padding: 10px;
+  padding: 50px;
   background: rgba(83, 214, 133, 0.750);
   border-radius: 10px;
 }
@@ -121,33 +133,6 @@ $info: #d10995;
 
 
 
-// PERSONAL STYLES 
 
-
-.mybox{
-  font-size: 20px;
-  box-sizing: border-box;
-  background-color: transparent;
-  padding: 10px;
-  text-shadow: 10px 10px 12px black;
-}
-
-.title {
-  text-shadow: 2px 2px 3px black;
-}
-
-.subtitle {
-  text-shadow: 1px 1px 2px black;
-  font-size: 17px;
-  font-weight: bold;
-}
-
-.messagetext{
-  font-size: 20px;
-  margin: 10px;
-  text-shadow: 1px 1px 2px white;
-  color: black;
-  // font-weight: bold;
-}
 
 @import "../../node_modules/bulma/bulma.sass";
