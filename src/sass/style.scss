@@ -7,6 +7,7 @@
 // Set your brand colors
 $primary: #2c3258;
 $info: #d10995;
+$footer-background-color: #2c3258;
 
 // PERSONAL STYLES 
 
@@ -27,8 +28,9 @@ $info: #d10995;
 }
 
 .herotext{
-  font-size: 40px;
+  font-size: 30px;
   text-shadow: 2px 2px 2px black;
+  text-align: left;
 }
 
 .herobox{
@@ -53,6 +55,9 @@ $info: #d10995;
   background-attachment: fixed;
 }
 
+// .sad{
+//   background-color: #2c3258;
+// }
 
 // STYLE FOR FIRST SECTION
 
@@ -90,6 +95,9 @@ $info: #d10995;
   border-radius: 10px;
 }
 
+.sad{
+  background-color: #2c3258;
+}
 
 // STYLE FOR THIRD SECTION
 
