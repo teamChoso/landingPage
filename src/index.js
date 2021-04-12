@@ -34,9 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let type = {
   strings: ["Espléndidas", "Maravillosas", "Únicas", "CANARIAS"],
-  typeSpeed: 40,
-  backSpeed: 40,
-  loopCout: Infinity,
+  typeSpeed: 80,
+  backSpeed: 50,
 };
 
 let typed = new Typed('.adjectives', type);
